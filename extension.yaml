@@ -1,5 +1,7 @@
 title: "Patrick Zeros ChatGPT API UI"
 version: "1.0.0"
-description: "Adds a static ChatGPT UI running on an Omnitool backend"
+description: "Adds a static ChatGPT UI running on an Omnitool backend based on Patrick Zero's ChatGPT API UI."
+author: Georg Zoeller
+origin: https://github.com/georgzoeller/omnitool-chatgpt-ui.git
 client:
   addToWorkbench: true
