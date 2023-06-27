@@ -1,7 +1,8 @@
-title: "Patrick Zeros ChatGPT API UI"
+title: "ChatGPT UI"
 version: "1.0.0"
-description: "Adds a static ChatGPT UI running on an Omnitool backend based on Patrick Zero's ChatGPT API UI."
+description: "Adds a static ChatGPT UI running on an Omnitool backend. Based on the open source project xtekky/chatgpt-clone"
 author: Georg Zoeller
 origin: https://github.com/georgzoeller/omnitool-chatgpt-ui.git
 client:
   addToWorkbench: true
+  minimizeChat: true
