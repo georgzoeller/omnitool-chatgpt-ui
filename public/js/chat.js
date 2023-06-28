@@ -124,6 +124,7 @@ const ask_gpt = async (message) => {
         conversation_id: window.conversation_id,
         conversation: await get_conversation(window.conversation_id),
         internet_access: document.getElementById("switch").checked,
+        redact_pii: document.getElementById("redact_pii").checked,
         content_type: "text"
       }
 
