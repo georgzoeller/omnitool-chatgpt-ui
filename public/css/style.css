@@ -17,13 +17,13 @@
 
 :root {
     --colour-1: #000000;
-    --colour-2: #ccc;
-    --colour-3: #a6a1b0;
+    --colour-2: #7a7676;
+    --colour-3: #636264;
     --colour-4: #f0f0f0;
     --colour-5: #181818;
     --colour-6: #242424;
 
-    --accent: #9ca3af;
+    --accent: #2a2a2a;
     --blur-bg: #16101b66;
     --blur-border: #84719040;
     --user-input: #ac87bb;
@@ -245,6 +245,7 @@ body {
     min-width: 0;
 }
 
+
 .message .content p,
 .message .content li,
 .message .content code {
@@ -258,6 +259,17 @@ body {
     bottom: -6px;
     right: -6px;
     z-index: 1000;
+}
+
+.text-xs
+{
+    font-size: 0.75rem; /* 12px */
+    line-height: 1rem; /* 16px */
+}
+
+.text-center
+{
+    text-align: center;
 }
 
 .new_convo {
