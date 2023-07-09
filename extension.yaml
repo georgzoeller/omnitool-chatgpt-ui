@@ -6,4 +6,4 @@ origin: https://github.com/georgzoeller/omnitool-chatgpt-ui.git
 client:
   addToWorkbench: true
   minimizeChat: true
-  hideBackButton: true
+  hideBackButton: false
